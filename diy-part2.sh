@@ -20,4 +20,6 @@ CONFIG_PACKAGE_kmod-ipt-nfqueue=y
 CONFIG_PACKAGE_kmod-nft-queue=y
 CONFIG_PACKAGE_iptables-mod-nfqueue=y
 CONFIG_PACKAGE_ua3f=y
+# CONFIG_PACKAGE_openlist2 is not set
+# CONFIG_PACKAGE_luci-app-openlist2 is not set
 EOF
