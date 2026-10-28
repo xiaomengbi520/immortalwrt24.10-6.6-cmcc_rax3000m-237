@@ -14,3 +14,10 @@
 sudo apt install libfuse-dev
 rm -rf feeds/packages/lang/golang
 git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
+cat >> .config <<'EOF'
+CONFIG_PACKAGE_kmod-nfnetlink-queue=y
+CONFIG_PACKAGE_kmod-ipt-nfqueue=y
+CONFIG_PACKAGE_kmod-nft-queue=y
+CONFIG_PACKAGE_iptables-mod-nfqueue=y
+CONFIG_PACKAGE_ua3f=y
+EOF
